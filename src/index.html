@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="/src/style.css" />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="./assets/images/favicon-32x32.png"
+        />
+        <title>Frontend Mentor | Results summary component</title>
+    </head>
+    <body class="font-hanken">
+        <div
+            class="w-full max-w-md mx-auto md:flex md:items-center md:justify-center md:h-screen md:max-w-4xl"
+        >
+            <article
+                class="flex flex-col gap-y-6 overflow-hidden md:flex-row md:w-[80%] md:h-[30rem] md:rounded-3xl md:shadow-xl"
+            >
+                <header
+                    class="bg-gradient-to-b from-light-slate-blue to-light-royal-blue flex flex-col items-center gap-y-4 py-7 rounded-b-[2.3rem] md:rounded-3xl md:w-1/2 md:gap-y-10"
+                >
+                    <h3 class="text-light-lavender text-lg font-semibold">
+                        Your result.
+                    </h3>
+                    <div
+                        class="bg-gradient-to-t from-cobalt-blue to-violet-blue w-[9rem] p-8 border-none border-white rounded-full text-center shadow-md"
+                    >
+                        <p class="text-white text-5xl font-bold mb-4">76</p>
+                        <p class="text-light-lavender text-sm font-bold">
+                            of 100
+                        </p>
+                    </div>
+                    <div class="text-center">
+                        <h3 class="text-white text-2xl font-semibold mb-4">
+                            Great
+                        </h3>
+                        <p class="w-[70%] max-w-xs mx-auto text-light-lavender">
+                            You scored higher than 65% of the people who have
+                            taken these tests.
+                        </p>
+                    </div>
+                </header>
+                <section
+                    class="flex flex-col gap-y-6 px-8 pb-4 md:w-1/2 md:self-center md:py-4"
+                >
+                    <header>
+                        <h4 class="text-dark-gray-blue text-lg font-semibold">
+                            Summary
+                        </h4>
+                    </header>
+                    <div class="flex flex-col gap-y-4">
+                        <div
+                            class="flex gap-x-2 items-center rounded-lg bg-opacity-20 bg-light-red p-4 w-full"
+                        >
+                            <img
+                                src="../assets/images/icon-reaction.svg"
+                                alt="Icon reaction"
+                                class="w-7"
+                            />
+                            <p class="text-light-red font-semibold">Reaction</p>
+                            <div class="ml-auto font-semibold">
+                                80<span class="opacity-60"> / 100</span>
+                            </div>
+                        </div>
+                        <div
+                            class="flex gap-x-2 items-center rounded-lg bg-opacity-20 bg-orangey-yellow p-4 w-full"
+                        >
+                            <img
+                                src="../assets/images/icon-memory.svg"
+                                alt="Icon memory"
+                                class="w-7"
+                            />
+                            <p class="text-orangey-yellow font-semibold">
+                                Memory
+                            </p>
+                            <div class="ml-auto font-semibold">
+                                92<span class="opacity-60"> / 100</span>
+                            </div>
+                        </div>
+                        <div
+                            class="flex gap-x-2 items-center rounded-lg bg-opacity-20 bg-green-teal p-4 w-full"
+                        >
+                            <img
+                                src="../assets/images/icon-verbal.svg"
+                                alt="Icon verbal"
+                                class="w-7"
+                            />
+                            <p class="text-green-teal font-semibold">Verbal</p>
+                            <div class="ml-auto font-semibold">
+                                61<span class="opacity-60"> / 100</span>
+                            </div>
+                        </div>
+                        <div
+                            class="flex gap-x-2 items-center rounded-lg bg-opacity-20 bg-light-royal-blue p-4 w-full"
+                        >
+                            <img
+                                src="../assets/images/icon-visual.svg"
+                                alt="Icon visual"
+                                class="w-7"
+                            />
+                            <p class="text-light-royal-blue font-semibold">
+                                Visual
+                            </p>
+                            <div class="ml-auto font-semibold">
+                                72<span class="opacity-60"> / 100</span>
+                            </div>
+                        </div>
+                    </div>
+                    <a
+                        href="#"
+                        class="w-full mx-auto bg-dark-gray-blue text-lg text-white text-center rounded-xl font-semibold p-4 hover:bg-gradient-to-b from-light-slate-blue to-light-royal-blue"
+                    >
+                        Continue
+                    </a>
+                </section>
+            </article>
+        </div>
+    </body>
+</html>
